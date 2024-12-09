@@ -12,6 +12,14 @@
   --light-color: #f9fafb;
   --dark-color: #272d35;
 }
+/* Add scroll padding for sections */
+html {
+    scroll-padding-top: 80px; /* Adjust this value based on your navbar height */
+}
+section {
+  padding-top: 100px; /* Adjust according to your navbar height */
+  margin-top: -80px; /* Negative margin compensates for the added padding */
+}
 
 html,
 body {
