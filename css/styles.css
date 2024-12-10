@@ -685,7 +685,7 @@ img {
 }
   
   
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     .main-menu-items,
     .info-left {
       display: none;
